@@ -1,0 +1,726 @@
+{
+ "entityType": "rule",
+ "category": "decisionTable",
+ "data": {
+  "createdAt": "2025-11-12T07:50:12.307Z",
+  "updatedAt": "2025-11-12T09:06:40.863596Z",
+  "isDeleted": false,
+  "testedAt": "2025-11-12T09:06:40.863Z",
+  "publishedAt": "0001-01-01T00:00:00Z",
+  "entityId": "0a950014-f457-4a47-9206-53891176a59c",
+  "name": "Test3",
+  "commitId": "commit-f5f9a300-4f6c-4609-b472-fac91a7e8d8f",
+  "status": "tested",
+  "lastVersion": "",
+  "isLive": false,
+  "commitInfo": {
+   "title": "Created at 2025-11-12 07:50:12",
+   "timeStamp": "2025-11-12T07:50:12.307002709Z"
+  },
+  "customInput": {
+   "string": {
+    "name": "string",
+    "dataType": "string",
+    "executedValue": "Atul2",
+    "next": "name",
+    "schemaId": "3634416d-3e76-4889-b303-dc2ecb849e25"
+   },
+   "name": {
+    "name": "name",
+    "dataType": "string",
+    "attribute": "name",
+    "sourceType": "dataSet",
+    "executedValue": "email@email.com",
+    "previous": "string"
+   }
+  },
+  "decisionTable": {
+   "rows": {
+    "rule_01": {
+     "nextId": "g_n1vqE4",
+     "firstOutputData": "output_TfWhov",
+     "isEnabled": true
+    },
+    "g_1M8mLg": {
+     "prevId": "g_n1vqE4",
+     "firstOutputData": "output_VfskOj",
+     "isEnabled": true
+    },
+    "g_n1vqE4": {
+     "nextId": "g_1M8mLg",
+     "prevId": "rule_01",
+     "firstOutputData": "output_ilJ3NN",
+     "isEnabled": true
+    }
+   },
+   "properties": {
+    "param_Z8oLvp": {
+     "nextId": "param_CknSQL",
+     "prevId": "param_X7yrfX",
+     "type": "simpleCondition"
+    },
+    "rule_03": {
+     "nextId": "param_X7yrfX",
+     "type": "simpleCondition"
+    },
+    "param_CknSQL": {
+     "prevId": "param_Z8oLvp",
+     "type": "simpleCondition"
+    },
+    "param_X7yrfX": {
+     "nextId": "param_Z8oLvp",
+     "prevId": "rule_03",
+     "type": "simpleCondition"
+    }
+   },
+   "results": {
+    "result_xNkiVQ": {
+     "nextId": "result_TdV2Ev",
+     "prevId": "result_VeNDEL",
+     "dataType": "numeric",
+     "keyName": "numeric"
+    },
+    "result_xSKVXd": {
+     "nextId": "result_QvUv86",
+     "prevId": "result_qLwnBx",
+     "dataType": "dateTime",
+     "keyName": "dateTime"
+    },
+    "result_Qgktlo": {
+     "nextId": "result_XABrkm",
+     "prevId": "result_QvUv86",
+     "dataType": "json",
+     "keyName": "json"
+    },
+    "result_QvUv86": {
+     "nextId": "result_Qgktlo",
+     "prevId": "result_xSKVXd",
+     "dataType": "list",
+     "keyName": "list"
+    },
+    "result_TdV2Ev": {
+     "nextId": "result_qLwnBx",
+     "prevId": "result_xNkiVQ",
+     "dataType": "boolean",
+     "keyName": "boolean"
+    },
+    "result_VeNDEL": {
+     "nextId": "result_xNkiVQ",
+     "dataType": "string",
+     "keyName": "string"
+    },
+    "result_XABrkm": {
+     "prevId": "result_Qgktlo",
+     "dataType": "jsFormula",
+     "keyName": "jsCode"
+    },
+    "result_qLwnBx": {
+     "nextId": "result_xSKVXd",
+     "prevId": "result_TdV2Ev",
+     "dataType": "date",
+     "keyName": "date"
+    }
+   },
+   "firstRow": "rule_01",
+   "firstProperty": "rule_03",
+   "firstResult": "result_VeNDEL",
+   "firstAggOutputData": "aggData_name"
+  },
+  "action": {
+   "then": {
+    "outputData": {
+     "output_lmZffW": {
+      "name": "boolean",
+      "dataType": "boolean",
+      "next": "output_4Fw5QW",
+      "executedValue": false
+     },
+     "output_p1RNN1": {
+      "name": "dateTime",
+      "dataType": "dateTime",
+      "next": "output_AuVUhX",
+      "executedValue": "2025-11-12T14:27:57+05:30"
+     },
+     "output_xEZbVe": {
+      "name": "numeric",
+      "dataType": "numeric",
+      "next": "output_lmZffW",
+      "executedValue": 0
+     },
+     "output_LRwQsS": {
+      "name": "boolean",
+      "dataType": "boolean",
+      "next": "output_4WwfYc",
+      "executedValue": false
+     },
+     "output_v388f3": {
+      "name": "numeric",
+      "dataType": "numeric",
+      "next": "output_LRwQsS",
+      "executedValue": 0
+     },
+     "aggData_name": {
+      "name": "name",
+      "dataType": "string",
+      "next": "aggData_name2",
+      "executedValue": "tset"
+     },
+     "output_4rAkSR": {
+      "name": "jsCode",
+      "dataType": "jsFormula",
+      "executedValue": "atul raizada"
+     },
+     "output_Kgy9Gs": {
+      "name": "json",
+      "dataType": "jsFormula",
+      "next": "output_AfSFye",
+      "executedValue": {
+       "name": "Autl"
+      }
+     },
+     "aggData_date": {
+      "name": "date",
+      "dataType": "date",
+      "next": "aggData_dateTime",
+      "executedValue": "2025-11-04"
+     },
+     "aggData_name2": {
+      "name": "name2",
+      "dataType": "string",
+      "next": "aggData_age",
+      "executedValue": "email@email.com"
+     },
+     "output_PHXbYs": {
+      "name": "date",
+      "dataType": "date",
+      "next": "output_jy1bqk",
+      "executedValue": "2025-11-04"
+     },
+     "aggData_age": {
+      "name": "age",
+      "dataType": "numeric",
+      "next": "aggData_date",
+      "executedValue": 0
+     },
+     "output_8v3Lo6": {
+      "name": "jsCode",
+      "dataType": "jsFormula",
+      "executedValue": true
+     },
+     "output_K3o0QR": {
+      "name": "dateTime",
+      "dataType": "dateTime",
+      "next": "output_9igpRd",
+      "executedValue": "2025-11-12T13:23:05+05:30"
+     },
+     "output_VrzGqv": {
+      "name": "json",
+      "dataType": "json",
+      "next": "output_8v3Lo6",
+      "executedValue": {
+       "name": "constant",
+       "lastName": "asd"
+      }
+     },
+     "output_iIy1WS": {
+      "name": "boolean",
+      "dataType": "boolean",
+      "next": "output_PHXbYs",
+      "executedValue": false
+     },
+     "output_ilJ3NN": {
+      "name": "string",
+      "dataType": "string",
+      "next": "output_xEZbVe",
+      "executedValue": "Value"
+     },
+     "output_vbW0jB": {
+      "name": "numeric",
+      "dataType": "jsFormula",
+      "next": "output_iIy1WS",
+      "executedValue": 7
+     },
+     "output_4Fw5QW": {
+      "name": "date",
+      "dataType": "date",
+      "next": "output_K3o0QR",
+      "executedValue": "2025-11-12"
+     },
+     "output_AfSFye": {
+      "name": "jsCode",
+      "dataType": "jsFormula",
+      "executedValue": "test"
+     },
+     "output_AuVUhX": {
+      "name": "list",
+      "dataType": "list",
+      "next": "output_VrzGqv",
+      "executedValue": [
+       1,
+       2,
+       3,
+       4,
+       5
+      ]
+     },
+     "aggData_dateTime": {
+      "name": "dateTime",
+      "dataType": "dateTime",
+      "next": "aggData_untitled",
+      "executedValue": ""
+     },
+     "aggData_untitled": {
+      "name": "untitled",
+      "dataType": "excelFormula",
+      "executedValue": "atul"
+     },
+     "output_4WwfYc": {
+      "name": "date",
+      "dataType": "date",
+      "next": "output_p1RNN1",
+      "executedValue": "2025-11-12"
+     },
+     "output_po83HD": {
+      "name": "json",
+      "dataType": "json",
+      "next": "output_4rAkSR",
+      "executedValue": {
+       "Age": 3
+      }
+     },
+     "output_zi7ULZ": {
+      "name": "list",
+      "dataType": "excelFormula",
+      "next": "output_Kgy9Gs",
+      "executedValue": [
+       1,
+       2,
+       3,
+       4,
+       5
+      ]
+     },
+     "output_9igpRd": {
+      "name": "list",
+      "dataType": "list",
+      "next": "output_po83HD",
+      "executedValue": [
+       1,
+       2,
+       2,
+       3,
+       4,
+       4,
+       5,
+       5,
+       6
+      ]
+     },
+     "output_TfWhov": {
+      "name": "string",
+      "dataType": "string",
+      "next": "output_v388f3",
+      "executedValue": "Value"
+     },
+     "output_VfskOj": {
+      "name": "string",
+      "dataType": "string",
+      "next": "output_vbW0jB",
+      "executedValue": "Value"
+     },
+     "output_jy1bqk": {
+      "name": "dateTime",
+      "dataType": "dateTime",
+      "next": "output_zi7ULZ",
+      "executedValue": "2025-11-13T00:00:00+05:30"
+     }
+    },
+    "actionNode": {
+     "actionData_action_3": {
+      "name": "action_3",
+      "connectorId": "c39cce22-efc3-4651-87f3-4a601713b054",
+      "entity": "",
+      "entityId": "",
+      "config": {
+       "query": "db.comments.insertOne({\"name\":\"email@email.com\"})",
+       "settings": {
+        "cache": {
+         "cacheKeys": "",
+         "enabled": false,
+         "duration": {
+          "unit": "d",
+          "value": 0
+         }
+        }
+       }
+      }
+     },
+     "actionData_restApi": {
+      "name": "restApi",
+      "connectorId": "53db8741-541f-40d6-b71f-58230464a7a3",
+      "entity": "",
+      "entityId": "",
+      "config": {
+       "path": "/posts/2",
+       "query": "",
+       "method": "GET",
+       "headers": [],
+       "settings": {
+        "cache": {
+         "enabled": false,
+         "duration": {
+          "unit": "d",
+          "value": 0
+         },
+         "cacheKeys": ""
+        }
+       },
+       "queryParams": []
+      },
+      "next": "actionData_action_2"
+     },
+     "actionData_action_2": {
+      "name": "action_2",
+      "connectorId": "3d1d7af8-471f-4f50-861b-58f44898263d",
+      "entity": "",
+      "entityId": "",
+      "config": {
+       "text": "\"{{.additionalData.name2}}\" + \"adsadssd\"",
+       "query": "",
+       "action": "sendMessage",
+       "channel": {
+        "is_private": false,
+        "label": "atul-channel",
+        "value": "atul-channel"
+       },
+       "settings": {
+        
+       },
+       "tokenType": "userToken",
+       "actionMethod": "sendMessage"
+      },
+      "next": "actionData_action_3"
+     }
+    },
+    "firstActionNode": "actionData_restApi"
+   },
+   "else": {
+    
+   }
+  },
+  "conditions": {
+   "nodes": {
+    "rule_01": {
+     "operator": "or",
+     "nodeType": "group",
+     "children": [
+      "rule_02",
+      "c_7yJ1nK",
+      "c_Kn49ag",
+      "c_yWOj0z"
+     ],
+     "siblingIndex": 1
+    },
+    "c_szLcVd": {
+     "name": "Any",
+     "operator": "eq",
+     "dataType": "string",
+     "nodeType": "condition",
+     "parent": "g_n1vqE4",
+     "leftNode": [
+      "rule_03"
+     ],
+     "rightNode": [
+      "rhs_YqsvD6"
+     ],
+     "siblingIndex": 1
+    },
+    "c_yWOj0z": {
+     "value": "",
+     "operator": "eq",
+     "dataType": "numeric",
+     "nodeType": "condition",
+     "parent": "rule_01",
+     "leftNode": [
+      "param_CknSQL"
+     ],
+     "rightNode": [
+      "rhs_W9gGfI"
+     ],
+     "siblingIndex": 1
+    },
+    "g_1M8mLg": {
+     "operator": "or",
+     "nodeType": "group",
+     "children": [
+      "c_RbXBeo",
+      "c_Q0YAap",
+      "c_57KQeh",
+      "c_d8MYn1"
+     ],
+     "siblingIndex": 1
+    },
+    "rhs_M4lQCo": {
+     "sourceType": "globalVar",
+     "dataType": "list",
+     "nodeType": "params",
+     "attribute": "listDynamic",
+     "parent": "c_Kn49ag",
+     "siblingIndex": 1
+    },
+    "rhs_PIY5Ps": {
+     "value": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+     ],
+     "dataType": "list",
+     "nodeType": "constant",
+     "parent": "c_iUQBX9",
+     "siblingIndex": 1
+    },
+    "rhs_TLrZIY": {
+     "sourceType": "dataSet",
+     "dataType": "string",
+     "nodeType": "params",
+     "attribute": "name",
+     "parent": "rule_02",
+     "siblingIndex": 1
+    },
+    "param_Z8oLvp": {
+     "sourceType": "globalVar",
+     "dataType": "list",
+     "nodeType": "params",
+     "attribute": "listDynamic",
+     "siblingIndex": 1
+    },
+    "rule_03": {
+     "sourceType": "customInput",
+     "dataType": "string",
+     "nodeType": "params",
+     "attribute": "name",
+     "siblingIndex": 1
+    },
+    "c_57KQeh": {
+     "value": "",
+     "operator": "any",
+     "dataType": "list",
+     "nodeType": "condition",
+     "parent": "g_1M8mLg",
+     "leftNode": [
+      "param_Z8oLvp"
+     ],
+     "siblingIndex": 1
+    },
+    "c_7yJ1nK": {
+     "value": "",
+     "operator": "eq",
+     "dataType": "string",
+     "nodeType": "condition",
+     "parent": "rule_01",
+     "leftNode": [
+      "param_X7yrfX"
+     ],
+     "rightNode": [
+      "rhs_7QWrvH"
+     ],
+     "siblingIndex": 1
+    },
+    "c_MDp0xJ": {
+     "name": "Any",
+     "operator": "eq",
+     "dataType": "string",
+     "nodeType": "condition",
+     "parent": "g_n1vqE4",
+     "leftNode": [
+      "param_X7yrfX"
+     ],
+     "rightNode": [
+      "rhs_cq5rJ9"
+     ],
+     "siblingIndex": 1
+    },
+    "c_iUQBX9": {
+     "value": "",
+     "operator": "eq",
+     "dataType": "list",
+     "nodeType": "condition",
+     "parent": "g_n1vqE4",
+     "leftNode": [
+      "param_Z8oLvp"
+     ],
+     "rightNode": [
+      "rhs_PIY5Ps"
+     ],
+     "siblingIndex": 1
+    },
+    "rhs_7QWrvH": {
+     "sourceType": "customInput",
+     "dataType": "string",
+     "nodeType": "params",
+     "attribute": "name",
+     "parent": "c_7yJ1nK",
+     "siblingIndex": 1
+    },
+    "rhs_EpKNn3": {
+     "sourceType": "globalVar",
+     "dataType": "numeric",
+     "nodeType": "params",
+     "attribute": "list[0]",
+     "parent": "c_jwozND",
+     "siblingIndex": 1
+    },
+    "param_CknSQL": {
+     "sourceType": "globalVar",
+     "dataType": "numeric",
+     "nodeType": "params",
+     "attribute": "list[0]",
+     "siblingIndex": 1
+    },
+    "c_Kn49ag": {
+     "value": "",
+     "operator": "eq",
+     "dataType": "list",
+     "nodeType": "condition",
+     "parent": "rule_01",
+     "leftNode": [
+      "param_Z8oLvp"
+     ],
+     "rightNode": [
+      "rhs_M4lQCo"
+     ],
+     "siblingIndex": 1
+    },
+    "c_Q0YAap": {
+     "name": "Any",
+     "operator": "any",
+     "dataType": "string",
+     "nodeType": "condition",
+     "parent": "g_1M8mLg",
+     "leftNode": [
+      "param_X7yrfX"
+     ],
+     "siblingIndex": 1
+    },
+    "c_RbXBeo": {
+     "name": "Any",
+     "operator": "any",
+     "dataType": "string",
+     "nodeType": "condition",
+     "parent": "g_1M8mLg",
+     "leftNode": [
+      "rule_03"
+     ],
+     "siblingIndex": 1
+    },
+    "c_jwozND": {
+     "value": "",
+     "operator": "neq",
+     "dataType": "numeric",
+     "nodeType": "condition",
+     "parent": "g_n1vqE4",
+     "leftNode": [
+      "param_CknSQL"
+     ],
+     "rightNode": [
+      "rhs_EpKNn3"
+     ],
+     "siblingIndex": 1
+    },
+    "g_n1vqE4": {
+     "operator": "or",
+     "nodeType": "group",
+     "children": [
+      "c_szLcVd",
+      "c_MDp0xJ",
+      "c_iUQBX9",
+      "c_jwozND"
+     ],
+     "siblingIndex": 1
+    },
+    "rhs_YqsvD6": {
+     "value": "Atul",
+     "dataType": "string",
+     "nodeType": "constant",
+     "parent": "c_szLcVd",
+     "siblingIndex": 1
+    },
+    "param_X7yrfX": {
+     "sourceType": "dataSet",
+     "dataType": "string",
+     "nodeType": "params",
+     "attribute": "name",
+     "siblingIndex": 1
+    },
+    "rule_02": {
+     "value": "",
+     "operator": "eq",
+     "dataType": "string",
+     "nodeType": "condition",
+     "parent": "rule_01",
+     "leftNode": [
+      "rule_03"
+     ],
+     "rightNode": [
+      "rhs_TLrZIY"
+     ],
+     "siblingIndex": 1
+    },
+    "c_d8MYn1": {
+     "value": "",
+     "operator": "any",
+     "dataType": "numeric",
+     "nodeType": "condition",
+     "parent": "g_1M8mLg",
+     "leftNode": [
+      "param_CknSQL"
+     ],
+     "siblingIndex": 1
+    },
+    "rhs_W9gGfI": {
+     "value": 34,
+     "dataType": "numeric",
+     "nodeType": "constant",
+     "parent": "c_yWOj0z",
+     "siblingIndex": 1
+    },
+    "rhs_cq5rJ9": {
+     "sourceType": "globalVar",
+     "dataType": "string",
+     "nodeType": "params",
+     "attribute": "test",
+     "parent": "c_MDp0xJ",
+     "siblingIndex": 1
+    }
+   }
+  },
+  "firstCustomInput": "string",
+  "description": "",
+  "policy": "evaluteAll",
+  "version": "draft",
+  "type": "decisionTable",
+  "dataSetId": "b3260243-2bf9-48be-ad07-529d5dc95c23",
+  "settings": {
+   "api": {
+    "isEnabled": true,
+    "isPrivate": true
+   },
+   "isEnabled": true,
+   "cachingInfo": {
+    "Enabled": false,
+    "Duration": {
+     "Value": 0,
+     "Unit": ""
+    },
+    "CacheKeys": ""
+   },
+   "timezone": "Asia/Calcutta",
+   "dateFormat": "in"
+  },
+  "isDemo": false,
+  "schemaVersion": "0.1.1"
+ }
+}
