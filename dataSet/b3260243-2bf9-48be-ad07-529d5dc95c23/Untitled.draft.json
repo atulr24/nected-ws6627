@@ -1,21 +1,23 @@
 {
  "entityType": "dataSet",
  "category": "dataSet",
+ "live": true,
  "data": {
   "createdAt": "2025-11-12T07:39:59.554Z",
-  "updatedAt": "2025-11-12T07:52:59.537104Z",
+  "updatedAt": "2025-11-12T10:18:00.595Z",
   "isDeleted": false,
   "publishedAt": "0001-01-01T00:00:00Z",
   "testedAt": "2025-11-12T07:52:59.535Z",
   "entityId": "b3260243-2bf9-48be-ad07-529d5dc95c23",
   "name": "Untitled",
   "commitId": "commit-bfcd3ec6-10af-4848-b745-0e884c41fc0d",
-  "status": "tested",
+  "status": "archived",
   "lastVersion": "",
   "isLive": false,
   "commitInfo": {
-   "title": "Created at 2025-11-12 07:39:59",
-   "timeStamp": "2025-11-12T07:39:59.554117184Z"
+   "title": "Archive",
+   "description": "Archived due to import",
+   "timeStamp": "2025-11-12T10:18:00.594Z"
   },
   "fields": {
    "movie_id": {
