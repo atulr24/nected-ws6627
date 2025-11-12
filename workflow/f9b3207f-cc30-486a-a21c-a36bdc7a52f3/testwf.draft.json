@@ -1,0 +1,102 @@
+{
+ "entityType": "workflow",
+ "data": {
+  "testedAt": "2025-11-12T13:01:21.051Z",
+  "publishedAt": "0001-01-01T00:00:00Z",
+  "createdAt": "2025-11-12T13:00:43.074Z",
+  "updatedAt": "2025-11-12T13:01:26.271911Z",
+  "isDeleted": false,
+  "entityId": "f9b3207f-cc30-486a-a21c-a36bdc7a52f3",
+  "name": "testwf",
+  "commitId": "commit-00935eae-df2d-4e03-9774-35473f8acd7e",
+  "status": "draft",
+  "lastVersion": "",
+  "isLive": false,
+  "commitInfo": {
+   "title": "Created at 2025-11-12 13:00:43",
+   "timeStamp": "2025-11-12T13:00:43.074859411Z"
+  },
+  "startNode": "n_nhsE27",
+  "version": "draft",
+  "description": "",
+  "trigger": {
+   
+  },
+  "nodes": [
+   {
+    "position": {
+     "x": 560.6018676757812,
+     "y": 0
+    },
+    "sourcePosition": "bottom",
+    "targetPosition": "top",
+    "id": "1",
+    "type": "trigger",
+    "data": {
+     "input": {
+      "name": {
+       "executedValue": "atul",
+       "name": "name",
+       "dataType": "string"
+      }
+     },
+     "executedValue": {
+      "name": "atul"
+     },
+     "settings": {
+      "isEnabled": true,
+      "cacheEnabled": false,
+      "durationUnit": "d",
+      "durationValue": 0,
+      "authType": "private",
+      "cacheKeys": ""
+     },
+     "nodeType": "apiTrigger",
+     "name": "Trigger",
+     "runInLoop": {
+      
+     },
+     "blockName": "trigger",
+     "testedAt": "0001-01-01T00:00:00Z"
+    }
+   },
+   {
+    "position": {
+     "x": 560.6018676757812,
+     "y": 130
+    },
+    "sourcePosition": "bottom",
+    "targetPosition": "top",
+    "id": "n_UOpLqA",
+    "type": "addNode",
+    "data": {
+     "nodeType": "addNodeMd",
+     "runInLoop": {
+      
+     },
+     "testedAt": "0001-01-01T00:00:00Z"
+    }
+   }
+  ],
+  "edges": [
+   {
+    "style": {
+     "stroke": "gray",
+     "strokeWidth": 1
+    },
+    "id": "e_H5Rp1F",
+    "source": "1",
+    "target": "n_UOpLqA",
+    "data": {
+     "edgeType": "then"
+    },
+    "type": "smoothEdge"
+   }
+  ],
+  "isEnabled": true,
+  "settings": {
+   
+  },
+  "isDemo": false
+ }
+}
