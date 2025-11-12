@@ -1,0 +1,14 @@
+{
+ "entityType": "connector",
+ "category": "slack",
+ "live": true,
+ "data": {
+  "createdAt": "2025-11-12T07:39:59.608Z",
+  "updatedAt": "2025-11-12T07:51:46.1907Z",
+  "isDeleted": false,
+  "entityId": "3d1d7af8-471f-4f50-861b-58f44898263d",
+  "name": "slack",
+  "category": "third-party",
+  "isAction": true
+ }
+}

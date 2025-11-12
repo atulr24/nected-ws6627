@@ -1,0 +1,33 @@
+{
+ "entityType": "variable",
+ "data": {
+  "createdAt": "2025-11-12T07:39:59.573Z",
+  "updatedAt": "2025-11-12T07:39:59.573Z",
+  "isDeleted": false,
+  "commitId": "",
+  "status": "",
+  "lastVersion": "",
+  "isLive": null,
+  "commitInfo": {
+   "timeStamp": "0001-01-01T00:00:00Z"
+  },
+  "entityId": "6ca5d1e0-ddfb-477e-b1d5-64a59e403041",
+  "name": "list",
+  "category": "globalVar",
+  "scope": "workspace",
+  "dataType": "list",
+  "value": {
+   "data": [
+    1,
+    2,
+    2,
+    3,
+    4,
+    4,
+    5,
+    5,
+    6
+   ]
+  }
+ }
+}

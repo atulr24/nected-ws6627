@@ -1,0 +1,23 @@
+{
+ "entityType": "variable",
+ "data": {
+  "createdAt": "2025-11-12T07:39:59.573Z",
+  "updatedAt": "2025-11-12T07:39:59.573Z",
+  "isDeleted": false,
+  "commitId": "",
+  "status": "",
+  "lastVersion": "",
+  "isLive": null,
+  "commitInfo": {
+   "timeStamp": "0001-01-01T00:00:00Z"
+  },
+  "entityId": "c779ffa6-2b40-4ab8-a0a9-a84498e48f45",
+  "name": "dateTime",
+  "category": "globalVar",
+  "scope": "workspace",
+  "dataType": "dateTime",
+  "value": {
+   "data": "2025-11-13T00:00:00+05:30"
+  }
+ }
+}

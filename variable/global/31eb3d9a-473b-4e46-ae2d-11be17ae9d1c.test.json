@@ -1,0 +1,23 @@
+{
+ "entityType": "variable",
+ "data": {
+  "createdAt": "2025-11-12T07:39:59.573Z",
+  "updatedAt": "2025-11-12T07:39:59.573Z",
+  "isDeleted": false,
+  "commitId": "",
+  "status": "",
+  "lastVersion": "",
+  "isLive": null,
+  "commitInfo": {
+   "timeStamp": "0001-01-01T00:00:00Z"
+  },
+  "entityId": "31eb3d9a-473b-4e46-ae2d-11be17ae9d1c",
+  "name": "test",
+  "category": "globalVar",
+  "scope": "workspace",
+  "dataType": "string",
+  "value": {
+   "data": "ads"
+  }
+ }
+}
